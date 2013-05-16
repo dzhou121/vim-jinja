@@ -69,8 +69,8 @@ syn region jinjaVarBlock start="{{" end="}}" contains=jinjaFilter,jinjaArgument,
 syn region jinjaComBlock start="{#" end="#}" contains=jinjaTodo containedin=ALLBUT,@jinjaBlocks
 
 
-hi def link jinjaTagBlock PreProc
-hi def link jinjaVarBlock PreProc
+" hi def link jinjaTagBlock PreProc
+" hi def link jinjaVarBlock PreProc
 hi def link jinjaStatement Statement
 hi def link jinjaFunction Function
 hi def link jinjaTest Type
